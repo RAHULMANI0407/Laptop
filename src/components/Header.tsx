@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Laptop, ShoppingBag, Search } from 'lucide-react';
 import { SHOP_NAME } from '../constants';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from './contexts/CartContext';
 
 interface HeaderProps {
   onSearch: (query: string) => void;
