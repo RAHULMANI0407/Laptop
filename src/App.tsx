@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import ChatWidget from './components/ChatWidget';
 import CartDrawer from './components/CartDrawer';
 import { PRODUCTS } from './constants';
-import { CartProvider } from './contexts/CartContext';
+import { CartProvider } from './src/contexts/CartContext';
 
 function App() {
   const [globalSearchQuery, setGlobalSearchQuery] = useState('');
