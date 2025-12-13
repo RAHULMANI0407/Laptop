@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Trash2, Plus, Minus, ShoppingBag } from 'lucide-react';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from './contexts/CartContext';
 import Button from './ui/Button';
 import CheckoutModal from './CheckoutModal';
 
