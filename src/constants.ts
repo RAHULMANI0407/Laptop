@@ -1,4 +1,4 @@
-import { Category, Product } from './src/types';
+import { Category, Product } from './types';
 
 export const SHOP_NAME = "TechNova";
 export const SHOP_PHONE = "+91 98765 43210";
