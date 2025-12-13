@@ -2,7 +2,7 @@ import React from 'react';
 import { Product } from '../types';
 import Button from './ui/Button';
 import { ShoppingCart } from 'lucide-react';
-import { useCart } from '../contexts/CartContext';
+import { useCart } from "./contexts/CartContext";
 
 interface ProductCardProps {
   product: Product;
