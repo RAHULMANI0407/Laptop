@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Catalog from './components/Catalog';
-import ContactSection from './components/ContactSection';
-import AboutSection from './components/AboutSection';
-import Footer from './components/Footer';
-import ChatWidget from './components/ChatWidget';
-import CartDrawer from './components/CartDrawer';
+import Header from './src/components/Header';
+import Hero from './src/components/Hero';
+import Catalog from './src/components/Catalog';
+import ContactSection from './src/components/ContactSection';
+import AboutSection from './src/components/AboutSection';
+import Footer from './src/components/Footer';
+import ChatWidget from './src/components/ChatWidget';
+import CartDrawer from './src/components/CartDrawer';
 import { PRODUCTS } from './constants';
 import { CartProvider } from './src/contexts/CartContext';
 
